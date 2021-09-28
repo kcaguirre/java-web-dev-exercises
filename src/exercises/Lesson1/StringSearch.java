@@ -9,7 +9,6 @@ public class StringSearch {
 
         System.out.println("Enter your search term: ");
         String searchTerm = input.nextLine().toLowerCase();
-
         boolean contains = sentence.toLowerCase().contains(searchTerm);
         System.out.println("The results of your search are " + contains);
 
